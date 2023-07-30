@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd /src/source
-cp -f /workspace/script/Makefile .
+cp -f /workspace/script/Makefile /workspace/script/*.cpp .
 
 if [ "$1" = "sse42" ]; then
   SIMDS=("sse42")

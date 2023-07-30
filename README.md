@@ -42,3 +42,7 @@ WebAssembly のビルド
 ```
 docker run -it --rm -v ${PWD}:/workspace yaneuraou/wasm bash /workspace/script/build.sh
 ```
+
+## USI 拡張コマンド
+
+checks: 現在の局面の合法な王手をすべて出力する。
